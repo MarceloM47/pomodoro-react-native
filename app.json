@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "pomodoro",
+    "name": "Pomodoro",
     "slug": "pomodoro",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tomato.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/tomato.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/tomato.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marcelo_m47.pomodoro"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/tomato.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1a516a4-80f7-4ed6-b67b-9528ebac5ac4"
+      }
     }
   }
 }

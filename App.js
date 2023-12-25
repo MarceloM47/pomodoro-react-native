@@ -27,7 +27,7 @@ export default function App() {
       // run timer
       interval = setInterval(() => {
         setTime(time - 1);
-      }, 10);
+      }, 1000);
     } else {
       // clear interval
       clearInterval(interval);
